@@ -1,0 +1,17 @@
+:root {
+  --bright-red: #FC4A68;
+  --very-dark-blue: #015170;
+  --soft-cyan: #51C4DF;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--very-dark-blue);
+}

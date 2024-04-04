@@ -1,0 +1,58 @@
+.btn-delete,
+.btn-edit {
+  height: 4rem;
+  width: 4rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  background: var(--bright-red);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-edit { 
+  background: var(--soft-cyan);
+}
+
+.form button[type="submit"]:hover,
+.btn-delete:hover, 
+.btn-edit:hover {
+  transition: all 300ms ease-in-out ;
+  color: var(--bright-red);
+  background: var(--white);
+  border: .1rem solid var(--bright-red);
+  margin-right: 0;
+}
+
+.btn-edit:hover {
+  color: var(--soft-cyan);
+  background: var(--white);
+  border: .1rem solid var(--soft-cyan);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem 0;
+  list-style-type: none;
+  width: 24rem;
+  max-width: 24rem;
+}
+
+li {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
